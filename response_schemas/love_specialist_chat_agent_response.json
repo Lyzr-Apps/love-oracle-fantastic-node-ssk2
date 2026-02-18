@@ -1,0 +1,18 @@
+{
+  "agent_name": "Love Specialist Chat Agent",
+  "agent_id": "6995c39c30dee8e278c88eb0",
+  "description": "Acts as the Love Specialist in conversational chat, providing emotionally intelligent relationship advice with a warm, empathetic, non-judgmental persona.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "response_text": "string",
+    "sentiment": "string",
+    "topic": "string"
+  },
+  "example_response": {
+    "response_text": "The Love Specialist's conversational reply",
+    "sentiment": "Detected emotional tone: happy, sad, anxious, confused, hopeful, frustrated, or neutral",
+    "topic": "Main topic: communication, trust, conflict, love languages, intimacy, or general"
+  }
+}

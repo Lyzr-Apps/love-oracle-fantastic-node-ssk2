@@ -1,0 +1,22 @@
+{
+  "agents": {
+    "compatibility_analyst": {
+      "agent_id": "6995c39b4ceab2f8e142b743",
+      "name": "Compatibility Analyst Agent",
+      "provider": "openai",
+      "model": "gpt-4.1"
+    },
+    "prediction": {
+      "agent_id": "6995c39b7137f607943cfd12",
+      "name": "Prediction Agent",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5"
+    },
+    "love_specialist_chat": {
+      "agent_id": "6995c39c30dee8e278c88eb0",
+      "name": "Love Specialist Chat Agent",
+      "provider": "google",
+      "model": "gemini-2.5-pro"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "agent_name": "Prediction Agent",
+  "agent_id": "6995c39b7137f607943cfd12",
+  "description": "Generates a future relationship prediction based on names and compatibility data, covering emotional trajectory, potential challenges, and long-term outlook.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "short_term_prediction": "string",
+    "long_term_prediction": "string",
+    "potential_challenges": "string",
+    "emotional_trajectory": "string",
+    "key_advice": "string",
+    "overall_outlook": "string"
+  },
+  "example_response": {
+    "short_term_prediction": "Prediction for the next few months",
+    "long_term_prediction": "Long-term relationship outlook",
+    "potential_challenges": "Challenges the couple may face",
+    "emotional_trajectory": "One of: Rising, Steady, Transformative, Deepening",
+    "key_advice": "Key advice for their future together",
+    "overall_outlook": "One of: Very Promising, Promising, Needs Attention, Challenging but Rewarding"
+  }
+}

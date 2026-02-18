@@ -1,0 +1,33 @@
+{
+  "agent_name": "Prediction Agent",
+  "agent_id": "6995c39b7137f607943cfd12",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "short_term_prediction": {
+      "type": "string",
+      "description": "Prediction for the next few months"
+    },
+    "long_term_prediction": {
+      "type": "string",
+      "description": "Long-term relationship outlook"
+    },
+    "potential_challenges": {
+      "type": "string",
+      "description": "Challenges the couple may face"
+    },
+    "emotional_trajectory": {
+      "type": "string",
+      "description": "One of: Rising, Steady, Transformative, Deepening"
+    },
+    "key_advice": {
+      "type": "string",
+      "description": "Key advice for their future together"
+    },
+    "overall_outlook": {
+      "type": "string",
+      "description": "One of: Very Promising, Promising, Needs Attention, Challenging but Rewarding"
+    }
+  }
+}

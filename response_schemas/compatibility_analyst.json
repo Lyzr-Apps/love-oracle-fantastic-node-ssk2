@@ -1,0 +1,29 @@
+{
+  "agent_name": "Compatibility Analyst Agent",
+  "agent_id": "6995c39b4ceab2f8e142b743",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "match_percentage": {
+      "type": "integer",
+      "description": "Compatibility match percentage from 0 to 100"
+    },
+    "compatibility_level": {
+      "type": "string",
+      "description": "Level like Soulmates, Strong Bond, Growing Connection, Budding Romance, or Needs Work"
+    },
+    "advice": {
+      "type": "string",
+      "description": "Personalized relationship advice for the couple"
+    },
+    "strengths": {
+      "type": "string",
+      "description": "Relationship strengths description"
+    },
+    "areas_to_work_on": {
+      "type": "string",
+      "description": "Areas the couple should work on"
+    }
+  }
+}

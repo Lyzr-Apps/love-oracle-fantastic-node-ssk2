@@ -1,0 +1,22 @@
+{
+  "agent_name": "Compatibility Analyst Agent",
+  "agent_id": "6995c39b4ceab2f8e142b743",
+  "description": "Analyzes two names and generates a relationship compatibility result including match percentage (0-100%), compatibility level, and personalized relationship advice.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "match_percentage": "number",
+    "compatibility_level": "string",
+    "advice": "string",
+    "strengths": "string",
+    "areas_to_work_on": "string"
+  },
+  "example_response": {
+    "match_percentage": 0,
+    "compatibility_level": "Level like Soulmates, Strong Bond, Growing Connection, Budding Romance, or Needs Work",
+    "advice": "Personalized relationship advice for the couple",
+    "strengths": "Relationship strengths description",
+    "areas_to_work_on": "Areas the couple should work on"
+  }
+}
